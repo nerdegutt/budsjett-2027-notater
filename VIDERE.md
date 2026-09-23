@@ -11,14 +11,13 @@ Sist oppdatert 23. september 2026, dagen Sak 1 ble lagt fram.
 - **Bystyrets vedtak (desember, Dok 3):** sammenlign med Sak 1 og oppdater alle tall. Verbalvedtak om DIG kommer
   typisk her, ikke i Sak 1.
 
+## Laget 23. september 2026 (kveld)
+
+- Klimabudsjettet og DIG (`klima.html`), Bydelsreformen sett fra DIG (`bydelsreformen.html`) og EPJ og
+  fagsystemfornyelsen i helse og sosial (`epj.html`).
+
 ## Ideer til nye temasider
 
-- **Klimabudsjettet og DIG:** virkemiddel 13 (brukstid på IKT-utstyr, PC-er inntil fem år, ansvar OKF og DIG, s. 20)
-  og ombruk. DIG-kapitlet sier «ingen klimagassutslipp av betydning» (s. 610), men klimabudsjettet gir likevel ansvar.
-- **Bydelsreformen sett fra DIG:** 150 mill. til IKT i 2027 på kapittel 192 (s. 37, 640) uten beskrivelse. Hvem eier
-  pengene, og hva skal de brukes til?
-- **EPJ og fagsystemfornyelsen i helse:** det største digitaliseringsprosjektet i kommunen, med 20 mill. til oppstart
-  (s. 153). Hva krever det av plattform, integrasjon og sikkerhet fra DIG?
 - **Økonomireglementet (s. 654–673):** fullmakter, instruks for investeringer, hva DIG kan og ikke kan uten bystyret.
 - **Budsjettekniske merknader (s. 674–678):** pris- og lønnskompensasjon, endringer i kapittelinndelingen.
 - **Historikk:** hvordan så Origo- og UKE-kapitlene ut i Sak 1/2026 og Dok 3/2026? Krever fjorårets dokumenter.

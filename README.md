@@ -8,8 +8,8 @@ Publisert med GitHub Pages: https://nerdegutt.github.io/budsjett-2027-notater/
 
 - `index.html` – forside i tre lag: start her, for deg som jobber med et område, tverrsnitt
 - Lag 1: `om-budsjettet.html`, `kommunemaal.html`, `dig-2027.html` (DIG på ett ark)
-- Lag 2: `dig-penger.html`, `dig-mal.html`, `sikkerhet.html`, `fellessystemer.html`, `innbyggertjenester.html`
-- Lag 3: `andre-sektorer.html`, `okf.html`, `hva-skjer-naa.html`
+- Lag 2: `dig-penger.html`, `dig-mal.html`, `sikkerhet.html`, `fellessystemer.html`, `innbyggertjenester.html`, `klima.html`
+- Lag 3: `andre-sektorer.html`, `okf.html`, `hva-skjer-naa.html`, `bydelsreformen.html`, `epj.html`
 - `site.css` – egne tilpasninger oppå Punkt, lagt i `@layer app`
 
 Alle sider skiller mellom oppsummering fra budsjettet og avsnitt merket «Claudes vurdering» (gul, stiplet ramme).
@@ -77,4 +77,4 @@ pdftotext -layout Vedlegg-1-Byradets-forslag-til-Budsjett-2027-og-okonomiplan-20
 - Én push per ferdig temaside. Innholdslista på hver side er i én kolonne. Sidetallene er selve lenkene.
 - Publisering skjer bare til dette repoet. Ingenting annet sendes ut av maskinen uten eksplisitt ja.
 
-**Status 23. september 2026:** tolv sider, alle lag på forsiden fylt. Se `VIDERE.md` for åpne spørsmål og ideer.
+**Status 23. september 2026:** femten sider, alle lag på forsiden fylt. Se `VIDERE.md` for åpne spørsmål og ideer.
