@@ -80,18 +80,15 @@
   }
 
   .ref-pdf {
-    font-size: 0.6875rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    margin-inline-start: 0.2em;
-    padding: 0 0.3em;
-    border: 1px solid var(--pkt-color-border-subtle);
-    border-radius: 0.2rem;
-    color: var(--pkt-color-brand-neutrals-700);
+    font-size: 0.68em;
+    line-height: 0;
+    vertical-align: super;
+    margin-inline-start: 0.15em;
+    color: var(--pkt-color-brand-neutrals-600);
     text-decoration: none;
-    vertical-align: 0.1em;
+    letter-spacing: 0.02em;
   }
-  .ref-pdf:hover, .ref-pdf:focus-visible { color: var(--pkt-color-text-action-hover); border-color: currentColor; }
+  .ref-pdf:hover, .ref-pdf:focus-visible { color: var(--pkt-color-text-action-hover); text-decoration: underline; }
 
   /* Undernavigasjon mellom temasidene om samme etat */
   .subnav { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; align-items: center; }
