@@ -47,3 +47,34 @@ Ferdige oppslagsverk, generert én gang ved å rendre alle kapitlene i Framsikt 
 Bruk `sidekart.json` når du skriver nye temasider: hvert sidetall i en `<span class="ref">` kan gjøres om til
 en inline-lenke til Framsikt, med en liten `pdf`-lenke ved siden av. Kolonnen «kontroll» i sidekartet viser om
 sidens tekst ble gjenfunnet under det valgte avsnittet («ok»), eller om siden har flere avsnitt / duplisert tekst.
+
+
+## Slik fortsetter du i en ny økt
+
+**Det som ligger lokalt (ikke i repoet):** PDF-en, `budsjett2027.txt` (hele teksten), `sider/NNN.txt` (én fil per side,
+filnummer = sidetall) og `innhold.md` ligger i arbeidsmappa ved siden av dette repoet. Mangler de, lag dem på nytt:
+
+```sh
+pdftotext -layout Vedlegg-1-Byradets-forslag-til-Budsjett-2027-og-okonomiplan-2027-2030.pdf budsjett2027.txt
+# del på formfeed til sider/001.txt … sider/685.txt
+```
+
+**Arbeidsflyt for et nytt tema**
+
+1. Finn stoffet: `grep -l -i "søkeord" sider/*.txt` gir sidetall, `cat sider/604.txt` gir siden. `innhold.md` er kartet.
+2. Bygg siden med `verktoy/sitegen.py` (`page()`, `section()`, `table()`, `assessment()`), se hvordan de eksisterende
+   sidene er satt sammen. Skriv sidetall som ren tekst: `<span class="ref">s. 604</span>`, eller `s. 46, 583` og `s. 580–582`.
+3. Legg til et kort på forsiden i riktig lag.
+4. Kjør `verktoy/publish.sh "melding"`. Den gjør sidetallene om til lenker (Framsikt og PDF), kontrollerer at alle lenker
+   peker på riktig kapittel og eksisterende avsnitt, validerer HTML og interne lenker, committer og pusher.
+
+**Konvensjoner**
+
+- Oppsummering fra budsjettet og egne vurderinger holdes adskilt. Vurderinger ligger i `assessment()`-bokser merket
+  «Claudes vurdering». Ingen synsing utenfor boksene.
+- Alle tall og påstander har sidetall. Tall gjengis som i kilden (1 000 kr i tabeller, «mill.» i løpende tekst).
+- Ordet er «samfunnsfloke», aldri «flok».
+- Én push per ferdig temaside. Innholdslista på hver side er i én kolonne. Sidetallene er selve lenkene.
+- Publisering skjer bare til dette repoet. Ingenting annet sendes ut av maskinen uten eksplisitt ja.
+
+**Status 23. september 2026:** tolv sider, alle lag på forsiden fylt. Se `VIDERE.md` for åpne spørsmål og ideer.
