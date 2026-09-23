@@ -61,6 +61,7 @@
   .panel--beige { background-color: var(--pkt-color-brand-light-beige-1000); border-color: transparent; }
   .panel--green { background-color: var(--pkt-color-surface-default-faded-green); border-color: transparent; }
   .panel--grey  { background-color: var(--pkt-color-surface-subtle-gray); border-color: transparent; }
+  .panel--planned { border: 1px dashed var(--pkt-color-border-default); background-color: transparent; }
   .panel > :first-child { margin-block-start: 0; }
   .panel > :last-child  { margin-block-end: 0; }
 
@@ -120,8 +121,8 @@
   }
 
   /* Innholdsliste på siden */
-  .toc ol { columns: 2; column-gap: 2rem; padding-inline-start: 1.25rem; }
-  @media (max-width: 48rem) { .toc ol { columns: 1; } }
+  .toc ol { padding-inline-start: 1.25rem; }
+  .toc li + li { margin-block-start: 0.25rem; }
 
   section + section { margin-block-start: 3rem; }
   h2[id], h3[id] { scroll-margin-block-start: 1rem; }
