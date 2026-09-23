@@ -6,14 +6,18 @@ Publisert med GitHub Pages: https://nerdegutt.github.io/budsjett-2027-notater/
 
 ## Filer
 
-- `index.html` – forside med lenker til temasidene og oversikt over dokumentets oppbygning
-- `dig-2027.html` – Digitaliseringsetaten (DIG) i budsjett 2027
+- `index.html` – forside i tre lag: start her, for deg som jobber med et område, tverrsnitt
+- Lag 1: `om-budsjettet.html`, `kommunemaal.html`, `dig-2027.html` (DIG på ett ark)
+- Lag 2: `dig-penger.html`, `dig-mal.html`, `sikkerhet.html`, `fellessystemer.html`, `innbyggertjenester.html`
+- Lag 3: `andre-sektorer.html`, `okf.html`, `hva-skjer-naa.html`
 - `site.css` – egne tilpasninger oppå Punkt, lagt i `@layer app`
+
+Alle sider skiller mellom oppsummering fra budsjettet og avsnitt merket «Claudes vurdering» (gul, stiplet ramme).
 
 ## Legge til et nytt tema
 
-1. Kopier `dig-2027.html` til `<tema>.html` og bytt ut innholdet.
-2. Legg til et kort på forsiden under «Temaer» og en lenke i `<pkt-header>` på alle sidene.
+1. Kopier en eksisterende temaside til `<tema>.html` og bytt ut innholdet (samme hode, meny, hero, innholdsliste og bunn).
+2. Legg til et kort på forsiden i riktig lag.
 3. Oppgi sidetall fra PDF-en ved hvert tall og hver påstand (`<span class="ref">s. 604</span>`).
 4. Oppdater datoen i bunnteksten.
 
