@@ -35,4 +35,11 @@ Kapitlene i Framsikt har faste adresser. Mønsteret er:
 - Innledningskapitler: `#/generic/summary/introduction/<guid>-cn`
 - Avsnitt i et kapittel: legg til `?scrollTo=t-<n>`; id-ene finnes ved å klikke i kapittelmenyen i Framsikt
 
-Full liste over kapittel-adresser ligger i `framsikt-kapitler.json`.
+Ferdige oppslagsverk, generert én gang ved å rendre alle kapitlene i Framsikt med headless Chrome:
+
+- `framsikt-lenker.md` / `.json`: alle 115 kapitler med alle avsnittsankre (1 043 stykker)
+- `sidekart.md` / `.json`: alle 685 PDF-sider → kapittel, avsnitt, Framsikt-lenke og PDF-lenke (`#page=N`)
+
+Bruk `sidekart.json` når du skriver nye temasider: hvert sidetall i en `<span class="ref">` kan gjøres om til
+en inline-lenke til Framsikt, med en liten `pdf`-lenke ved siden av. Kolonnen «kontroll» i sidekartet viser om
+sidens tekst ble gjenfunnet under det valgte avsnittet («ok»), eller om siden har flere avsnitt / duplisert tekst.

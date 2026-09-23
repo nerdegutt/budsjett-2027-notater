@@ -78,6 +78,20 @@
     white-space: nowrap;
   }
 
+  .ref-pdf {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-inline-start: 0.2em;
+    padding: 0 0.3em;
+    border: 1px solid var(--pkt-color-border-subtle);
+    border-radius: 0.2rem;
+    color: var(--pkt-color-brand-neutrals-700);
+    text-decoration: none;
+    vertical-align: 0.1em;
+  }
+  .ref-pdf:hover, .ref-pdf:focus-visible { color: var(--pkt-color-text-action-hover); border-color: currentColor; }
+
   /* Sitatblokk fra budsjettdokumentet */
   .quote {
     border-inline-start: 4px solid var(--pkt-color-brand-blue-1000);
