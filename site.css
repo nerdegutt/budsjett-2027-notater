@@ -1,0 +1,101 @@
+/* Egne tilpasninger oppå Punkt. Punkt ligger i @layer punkt, våre stiler i @layer app. */
+@layer punkt, app;
+
+@layer app {
+  body {
+    background-color: var(--pkt-color-background-default);
+  }
+
+  .site-hero {
+    background-color: var(--pkt-color-surface-subtle-pale-blue);
+    border-block-end: 1px solid var(--pkt-color-border-subtle);
+  }
+
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+  }
+
+  /* Nøkkeltall */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 1rem;
+  }
+  .kpi {
+    border: 1px solid var(--pkt-color-border-default);
+    border-radius: 0.25rem;
+    padding: 1.25rem 1.5rem;
+    background-color: var(--pkt-color-background-card);
+  }
+  .kpi__value {
+    display: block;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--pkt-color-brand-dark-blue-1000);
+  }
+  .kpi__label {
+    display: block;
+    margin-block-start: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+  .kpi__source {
+    display: block;
+    margin-block-start: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--pkt-color-brand-neutrals-700);
+  }
+
+  /* Kort uten JS-komponent */
+  .panel {
+    border: 1px solid var(--pkt-color-border-default);
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+    height: 100%;
+    background-color: var(--pkt-color-background-card);
+  }
+  .panel--blue  { background-color: var(--pkt-color-surface-subtle-light-blue); border-color: transparent; }
+  .panel--beige { background-color: var(--pkt-color-brand-light-beige-1000); border-color: transparent; }
+  .panel--green { background-color: var(--pkt-color-surface-default-faded-green); border-color: transparent; }
+  .panel--grey  { background-color: var(--pkt-color-surface-subtle-gray); border-color: transparent; }
+  .panel > :first-child { margin-block-start: 0; }
+  .panel > :last-child  { margin-block-end: 0; }
+
+  /* Tabeller med tall */
+  .table-scroll { overflow-x: auto; }
+  .num { text-align: end; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .pkt-table .row-sum td { font-weight: 500; border-block-start: 2px solid var(--pkt-color-border-default); }
+  .pkt-table .row-sub td:first-child { padding-inline-start: 2rem; }
+  .pkt-table caption { text-align: start; padding-block-end: 0.5rem; }
+
+  /* Sidehenvisning */
+  .ref {
+    font-size: 0.8125rem;
+    color: var(--pkt-color-brand-neutrals-700);
+    white-space: nowrap;
+  }
+
+  /* Sitatblokk fra budsjettdokumentet */
+  .quote {
+    border-inline-start: 4px solid var(--pkt-color-brand-blue-1000);
+    padding-inline-start: 1rem;
+    margin: 1rem 0;
+    font-style: italic;
+  }
+
+  /* Innholdsliste på siden */
+  .toc ol { columns: 2; column-gap: 2rem; padding-inline-start: 1.25rem; }
+  @media (max-width: 48rem) { .toc ol { columns: 1; } }
+
+  section + section { margin-block-start: 3rem; }
+  h2[id], h3[id] { scroll-margin-block-start: 1rem; }
+
+  .site-footer {
+    background-color: var(--pkt-color-brand-dark-blue-1000);
+    color: var(--pkt-color-text-body-light);
+  }
+  .site-footer a { color: inherit; }
+}
