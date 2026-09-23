@@ -92,6 +92,25 @@
   }
   .ref-pdf:hover, .ref-pdf:focus-visible { color: var(--pkt-color-text-action-hover); border-color: currentColor; }
 
+  /* Undernavigasjon mellom temasidene om samme etat */
+  .subnav { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; align-items: center; }
+  .subnav__label { font-weight: 500; margin-inline-end: 0.25rem; }
+  .subnav__item {
+    display: inline-block; padding: 0.25rem 0.875rem; border-radius: 999px;
+    border: 1px solid var(--pkt-color-border-default); color: var(--pkt-color-text-action-normal); text-decoration: none;
+  }
+  .subnav__item:hover { border-color: var(--pkt-color-text-action-hover); color: var(--pkt-color-text-action-hover); }
+  .subnav__item--current { background-color: var(--pkt-color-brand-dark-blue-1000); border-color: var(--pkt-color-brand-dark-blue-1000); color: var(--pkt-color-text-body-light); }
+
+  /* Claudes vurdering: tydelig skilt fra oppsummering av budsjettet */
+  .assessment {
+    border: 2px dashed var(--pkt-color-brand-yellow-1000);
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+    background-color: var(--pkt-color-brand-neutrals-50);
+  }
+  .kpi__source a.pkt-link { color: inherit; }
+
   /* Sitatblokk fra budsjettdokumentet */
   .quote {
     border-inline-start: 4px solid var(--pkt-color-brand-blue-1000);
