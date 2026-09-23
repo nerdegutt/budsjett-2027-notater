@@ -71,7 +71,7 @@ pdftotext -layout Vedlegg-1-Byradets-forslag-til-Budsjett-2027-og-okonomiplan-20
 **Konvensjoner**
 
 - Oppsummering fra budsjettet og egne vurderinger holdes adskilt. Vurderinger ligger i `assessment()`-bokser merket
-  «Claudes vurdering». Ingen synsing utenfor boksene.
+  «Claudes vurdering», skrevet i spørrende form: still spørsmålene stoffet reiser, ikke slå fast hva som kommer til å skje. Ingen synsing utenfor boksene.
 - Alle tall og påstander har sidetall. Tall gjengis som i kilden (1 000 kr i tabeller, «mill.» i løpende tekst).
 - Ordet er «samfunnsfloke», aldri «flok».
 - Én push per ferdig temaside. Innholdslista på hver side er i én kolonne. Sidetallene er selve lenkene.
