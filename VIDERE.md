@@ -42,6 +42,7 @@ Regel: bare det som står i budsjettet. Intern kunnskap om DIGs egne prosjekter 
 - M365-hoppet fra 12,5 mill. i 2028 til 54 mill. i 2029 har ingen tallforklaring (s. 606, 608).
 - To virksomheter sto utenfor felles IKT-plattform i 2025, mot null i 2024, uten forklaring (s. 580).
 - Datoene for innspillsmøtene på `om-budsjettet.html` er fra oslo.kommune.no, ikke fra dokumentet.
+- Klimaavtrykket av KI-satsingen og M365-veksten er ikke tallfestet noe sted. Verdt å følge opp mot Klimaetaten og KI-Oslo.
 - Vurderingene («Claudes vurdering») er tolkninger og bør sjekkes mot dem det gjelder før de brukes videre.
 
 ## Teknisk
