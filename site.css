@@ -113,6 +113,9 @@
   }
   .kpi__source a.pkt-link { color: inherit; }
 
+  /* «Ny»-tagger: Oslo grønn, så de synes også på grønne flater */
+  .pkt-tag.tag-ny { background-color: var(--pkt-color-surface-strong-green); }
+
   /* Sitatblokk fra budsjettdokumentet */
   .quote {
     border-inline-start: 4px solid var(--pkt-color-brand-blue-1000);
