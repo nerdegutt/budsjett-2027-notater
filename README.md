@@ -77,4 +77,4 @@ pdftotext -layout Vedlegg-1-Byradets-forslag-til-Budsjett-2027-og-okonomiplan-20
 - Én push per ferdig temaside. Innholdslista på hver side er i én kolonne. Sidetallene er selve lenkene.
 - Publisering skjer bare til dette repoet. Ingenting annet sendes ut av maskinen uten eksplisitt ja.
 
-**Status 23. september 2026:** femten sider, alle lag på forsiden fylt. Se `VIDERE.md` for åpne spørsmål og ideer.
+**Status 24. september 2026:** seksten sider. Issue #1 (faktasjekk fra kollega) er behandlet og lukket, med 13 rettelser og tre nye DIG-tall. Se `VIDERE.md` for åpne spørsmål og ideer.

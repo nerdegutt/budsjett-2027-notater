@@ -1,6 +1,13 @@
 # Videre arbeid og åpne spørsmål
 
-Sist oppdatert 23. september 2026, dagen Sak 1 ble lagt fram.
+Sist oppdatert 24. september 2026. Sak 1 ble lagt fram 23. september.
+
+## Gjort 24. september
+
+- Issue #1 fra kollega (faktasjekk mot Vedlegg 1) er gjennomgått mot kilden, 13 avvik rettet, svar lagt inn og issuen lukket.
+  Metoden er verdt å gjenta: la en annen modell lese repoet mot PDF-en, og kontroller hvert punkt mot sidefilene før endring.
+- Forsiden fikk nye lagnavn, jevn luft, Punkt-farger og ingen rammer. Vurderingsboksene ble skrevet om til spørrende form.
+- Alt som bygde på intern DIG-kunnskap (ikke budsjettet) er fjernet, også fra git-historikken.
 
 ## Når nye dokumenter kommer
 
