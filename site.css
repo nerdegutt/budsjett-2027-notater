@@ -32,13 +32,12 @@
     gap: 1rem;
   }
   .kpi {
-    border: 1px solid var(--pkt-color-border-default);
     padding: 1.25rem 1.5rem;
-    background-color: var(--pkt-color-background-card);
+    background-color: var(--pkt-color-brand-neutrals-white);
   }
   .kpi__value {
     display: block;
-    font-size: 2rem;
+    font-size: 1.75rem;
     line-height: 1.2;
     font-weight: 500;
     color: var(--pkt-color-brand-dark-blue-1000);
@@ -101,16 +100,15 @@
   .subnav__label { font-weight: 500; margin-inline-end: 0.25rem; }
   .subnav__item {
     display: inline-block; padding: 0.25rem 0.875rem;
-    border: 1px solid var(--pkt-color-border-default); color: var(--pkt-color-text-action-normal); text-decoration: none;
+    background-color: var(--pkt-color-surface-subtle-light-blue); color: var(--pkt-color-text-action-normal); text-decoration: none;
   }
-  .subnav__item:hover { border-color: var(--pkt-color-text-action-hover); color: var(--pkt-color-text-action-hover); }
-  .subnav__item--current { background-color: var(--pkt-color-brand-dark-blue-1000); border-color: var(--pkt-color-brand-dark-blue-1000); color: var(--pkt-color-text-body-light); }
+  .subnav__item:hover { background-color: var(--pkt-color-surface-default-pale-blue); color: var(--pkt-color-text-action-hover); }
+  .subnav__item--current { background-color: var(--pkt-color-brand-dark-blue-1000); color: var(--pkt-color-text-body-light); }
 
   /* Claudes vurdering: tydelig skilt fra oppsummering av budsjettet */
   .assessment {
-    border: 2px dashed var(--pkt-color-brand-yellow-1000);
     padding: 1.5rem;
-    background-color: var(--pkt-color-brand-neutrals-50);
+    background-color: var(--pkt-color-surface-default-light-beige);
   }
   .kpi__source a.pkt-link { color: inherit; }
 
