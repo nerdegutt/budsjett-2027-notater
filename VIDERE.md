@@ -16,6 +16,11 @@ Sist oppdatert 23. september 2026, dagen Sak 1 ble lagt fram.
 - Klimabudsjettet og DIG (`klima.html`), Bydelsreformen sett fra DIG (`bydelsreformen.html`) og EPJ og
   fagsystemfornyelsen i helse og sosial (`epj.html`).
 
+## Det budsjettet nevner uten å forklare (`usynlige-prosjekter.html`)
+
+Lista over oppgaver budsjettet nevner uten innhold, eier eller forklaring. Fyll på når nye dukker opp.
+Regel: bare det som står i budsjettet. Intern kunnskap om DIGs egne prosjekter skal ikke inn på nettsiden.
+
 ## Ideer til nye temasider
 
 - **Økonomireglementet (s. 654–673):** fullmakter, instruks for investeringer, hva DIG kan og ikke kan uten bystyret.
