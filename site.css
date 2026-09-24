@@ -25,7 +25,6 @@
   }
   .kpi {
     border: 1px solid var(--pkt-color-border-default);
-    border-radius: 0.25rem;
     padding: 1.25rem 1.5rem;
     background-color: var(--pkt-color-background-card);
   }
@@ -52,7 +51,6 @@
   /* Kort uten JS-komponent */
   .panel {
     border: 1px solid var(--pkt-color-border-default);
-    border-radius: 0.25rem;
     padding: 1.5rem;
     height: 100%;
     background-color: var(--pkt-color-background-card);
@@ -94,7 +92,7 @@
   .subnav { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; align-items: center; }
   .subnav__label { font-weight: 500; margin-inline-end: 0.25rem; }
   .subnav__item {
-    display: inline-block; padding: 0.25rem 0.875rem; border-radius: 999px;
+    display: inline-block; padding: 0.25rem 0.875rem;
     border: 1px solid var(--pkt-color-border-default); color: var(--pkt-color-text-action-normal); text-decoration: none;
   }
   .subnav__item:hover { border-color: var(--pkt-color-text-action-hover); color: var(--pkt-color-text-action-hover); }
@@ -103,7 +101,6 @@
   /* Claudes vurdering: tydelig skilt fra oppsummering av budsjettet */
   .assessment {
     border: 2px dashed var(--pkt-color-brand-yellow-1000);
-    border-radius: 0.25rem;
     padding: 1.5rem;
     background-color: var(--pkt-color-brand-neutrals-50);
   }
