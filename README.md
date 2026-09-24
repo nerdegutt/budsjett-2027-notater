@@ -7,7 +7,7 @@ Publisert med GitHub Pages: https://nerdegutt.github.io/budsjett-2027-notater/
 ## Filer
 
 - `index.html` – forside i tre lag: «Fort & gæli», «For deg som vil vite litt mer», «Hva med andre virksomheter og store prosjekter?»
-- Fort & gæli: `om-budsjettet.html`, `kommunemaal.html`, `dig-2027.html` (DIG på ett ark), `hva-skjer-naa.html`
+- Fort & gæli: `om-budsjettet.html`, `kommunemaal.html`, `dig-2027.html` (DIG på fem minutter), `hva-skjer-naa.html`
 - For deg som vil vite litt mer: `dig-penger.html`, `dig-mal.html`, `sikkerhet.html`, `fellessystemer.html`, `innbyggertjenester.html`, `klima.html`
 - Hva med andre virksomheter og store prosjekter?: `andre-sektorer.html`, `okf.html`, `bydelsreformen.html`, `epj.html`, `usynlige-prosjekter.html`
 - `site.css` – egne tilpasninger oppå Punkt, lagt i `@layer app`
