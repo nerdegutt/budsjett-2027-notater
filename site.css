@@ -6,6 +6,13 @@
     background-color: var(--pkt-color-background-default);
   }
 
+  /* Forsideseksjoner: lik luft over og under, uansett bakgrunnsfarge */
+  .band { padding-block: 2rem; }
+  .band > .pkt-container > :first-child { margin-block-start: 0; }
+  .band > .pkt-container > :last-child { margin-block-end: 0; }
+  .band .pkt-grid { margin-block-end: 0; }
+  .band h2 { margin-block: 0 0.25rem; }
+
   .site-hero {
     background-color: var(--pkt-color-surface-subtle-pale-blue);
     border-block-end: 1px solid var(--pkt-color-border-subtle);
@@ -118,7 +125,8 @@
   .toc ol { padding-inline-start: 1.25rem; }
   .toc li + li { margin-block-start: 0.25rem; }
 
-  section + section { margin-block-start: 3rem; }
+  article section + section { margin-block-start: 3rem; }
+  .band + .band { margin-block-start: 0; }
   h2[id], h3[id] { scroll-margin-block-start: 1rem; }
 
   .site-footer {
