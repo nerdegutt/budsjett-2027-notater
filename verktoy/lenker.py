@@ -46,7 +46,7 @@ def process(d):
         inner=strip_links(m.group(2))
         if re.search(r'\bs\.', inner): return f'<td data-label="{m.group(1)}" class="ref">{linkify(inner)}</td>'
         return f'<td data-label="{m.group(1)}" class="ref">{linkify("s. "+inner)[3:]}</td>'
-    d=re.sub(r'<td data-label="(Side|Sider)" class="ref">(.*?)</td>', td, d, flags=re.S)
+    d=re.sub(r'<td data-label="(Side|Sider)"(?: class="ref")?>(.*?)</td>', td, d, flags=re.S)
     return d
 
 VOID={'meta','link','br','img','hr','input','col'}
@@ -77,7 +77,7 @@ def verify(f,d,all_files):
         tf,anc=m.group(1),m.group(2)
         if tf not in all_files: problems.append(f'intern lenke til manglende fil {tf}'); continue
         if anc and f'id="{anc[1:]}"' not in all_files[tf]: problems.append(f'intern lenke til manglende anker {tf}{anc}')
-    for c in re.findall(r'<td data-label="(?:Side|Sider)" class="ref">(.*?)</td>', d)+[c for c in re.findall(r'<span class="ref">(.*?)</span>', d) if re.search(r'\d',c)]:
+    for c in re.findall(r'<td data-label="(?:Side|Sider)"(?: class="ref")?>(.*?)</td>', d)+[c for c in re.findall(r'<span class="ref">(.*?)</span>', d) if re.search(r'\d',c)]:
         if '<a ' not in c: problems.append(f'henvisning uten lenke: {re.sub("<[^>]+>","",c)[:40]}')
     return problems
 
