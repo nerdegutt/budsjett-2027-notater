@@ -1,5 +1,5 @@
 """Legg til et kort på forsiden i et gitt lag.
-Bruk: python3 verktoy/add_card.py <lag 1|2|3> <fil.html> "Tittel" "Ingress" "Kilde: s. …" [skin] [tagtekst tagklasse]
+Bruk: python3 verktoy/add_card.py <lag fort|mer|andre> <fil.html> "Tittel" "Ingress" "Kilde: s. …" [skin] [tagtekst tagklasse]
 """
 import re, sys, os
 lag, href, title, text, ref = sys.argv[1:6]
@@ -16,7 +16,7 @@ card = f'''          <div class="pkt-cell pkt-cell--span12 pkt-cell--span6-table
           </div>
 '''
 # finn seksjonen for laget og sett kortet inn sist i dens pkt-grid
-m = re.search(r'<p class="pkt-txt-14-medium mb-size-4">Lag ' + re.escape(lag) + r'</p>.*?<div class="pkt-grid">(.*?)\n        </div>', d, re.S)
+m = re.search(r'<section id="' + re.escape(lag) + r'".*?<div class="pkt-grid">(.*?)\n        </div>', d, re.S)
 assert m, f'fant ikke lag {lag}'
 d = d[:m.end(1)] + '\n' + card.rstrip('\n') + d[m.end(1):]
 open(F, 'w', encoding='utf-8').write(d)

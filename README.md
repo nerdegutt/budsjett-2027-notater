@@ -6,10 +6,10 @@ Publisert med GitHub Pages: https://nerdegutt.github.io/budsjett-2027-notater/
 
 ## Filer
 
-- `index.html` – forside i tre lag: start her, for deg som jobber med et område, tverrsnitt
-- Lag 1: `om-budsjettet.html`, `kommunemaal.html`, `dig-2027.html` (DIG på ett ark)
-- Lag 2: `dig-penger.html`, `dig-mal.html`, `sikkerhet.html`, `fellessystemer.html`, `innbyggertjenester.html`, `klima.html`
-- Lag 3: `andre-sektorer.html`, `okf.html`, `hva-skjer-naa.html`, `bydelsreformen.html`, `epj.html`
+- `index.html` – forside i tre lag: «Fort & gæli», «For deg som vil vite litt mer», «Hva med andre virksomheter?»
+- Fort & gæli: `om-budsjettet.html`, `kommunemaal.html`, `dig-2027.html` (DIG på ett ark), `hva-skjer-naa.html`
+- For deg som vil vite litt mer: `dig-penger.html`, `dig-mal.html`, `sikkerhet.html`, `fellessystemer.html`, `innbyggertjenester.html`, `klima.html`
+- Hva med andre virksomheter?: `andre-sektorer.html`, `okf.html`, `bydelsreformen.html`, `epj.html`, `usynlige-prosjekter.html`
 - `site.css` – egne tilpasninger oppå Punkt, lagt i `@layer app`
 
 Alle sider skiller mellom oppsummering fra budsjettet og avsnitt merket «Claudes vurdering» (gul, stiplet ramme).
